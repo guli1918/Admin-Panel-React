@@ -1,0 +1,66 @@
+.newProduct {
+	flex: 4;
+}
+
+.newProductTitle {
+	margin-top: 10px;
+}
+
+.newProductFields {
+	display: flex;
+	flex-direction: column;
+}
+
+.newProductItem {
+	display: flex;
+	flex-direction: column;
+}
+
+.newProductName {
+	font-size: 18px;
+	font-weight: 600;
+	color: gray;
+	margin: 10px 0;
+}
+
+.newProductInput {
+	width: 344px;
+	padding: 20px;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.newProductButton {
+	border: none;
+	border-radius: 15px;
+	padding: 12px;
+	background-color: darkblue;
+	color: white;
+	font-weight: 600;
+	margin-top: 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.newProductButton:hover {
+	background-color: rgb(27, 27, 167);
+}
+
+.newProductButton:active {
+	background-color: darkblue;
+}
+
+.newProductInputs {
+	width: 388px;
+	padding: 20px;
+	font-size: 17px;
+	color: gray;
+	background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+		no-repeat right rgb(255, 255, 255);
+	-webkit-appearance: none;
+	background-position-x: 95%;
+}
+
+.file {
+	margin-right: 20px;
+}
